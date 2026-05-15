@@ -23,5 +23,5 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHANNEL_ID }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python ipo_agent.py
