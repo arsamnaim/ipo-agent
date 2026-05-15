@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 # ============ YOUR KEYS ============
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-CHAT_ID = os.environ.get("CHANNEL_ID")
+CHAT_ID = os.environ.get("CHAT_ID")
 # ===================================
 
 groq_client = Groq(api_key=GROQ_API_KEY)
